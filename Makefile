@@ -7,5 +7,6 @@ main.o: main.cpp allFuncs.h
 allFuncs.o: allFuncs.cpp allFuncs.h
 	g++ -c allFuncs.cpp
 
+# "make clean" at the end to remove executables
 clean:
-	rm -f main.o allFuncs.o
+	rm -f main main.o allFuncs.o

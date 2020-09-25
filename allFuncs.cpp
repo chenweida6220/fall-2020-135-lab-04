@@ -144,6 +144,7 @@ string trapezoid(int width, int height) {
   return str;
 }
 
+// Task G
 string checkerboard3x3(int width, int height) {
   if (width <= 0 || height <= 0) {
     return "Invalid input(s)\n";
